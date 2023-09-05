@@ -42,11 +42,3 @@ def home_page(request):
 #     template_name = "home_page.html"
 
 
-# MY EXAMPLE HOW TO GET NUM OF RESOURCES PER CATEGORY^^^
-# prog_lang_cat = Resources.objects.filter(cat_id__cat__in=["Programming Language"]).count()
-    # db_cat = Resources.objects.filter(cat_id__cat__in=["Databases"]).count()
-    # framework_cat = Resources.objects.filter(cat_id__cat__in=["Frameworks"]).count()
-        
-# <li>Programming Languages: {prog_lang_cat}</li>
-# <li>Databases: {db_cat}</li>
-# <li>Frameworks: {framework_cat}</li>
