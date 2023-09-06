@@ -3,7 +3,7 @@ from django.http import HttpResponse
 from django.views.generic import TemplateView
 from django.db.models import Count
 
-from .models import Resources
+from .models import Resources, Tag
 from apps.user.models import User
 from .utils import generate_cat_count_list
 # Create your views here.
@@ -35,6 +35,23 @@ def home_page(request):
     
     return HttpResponse(response)
 
+
+
+def resource_detail(request, id):
+    res = Resources.objects.select_related("user_id", "cat_id").get(pk=id)
+    tags = Tag.objects.filter(resources=res)
+    tag_names = ", ".join([tag.name for tag in tags])
+    response = f"""
+        <html>
+            <h1 style="color: blue">Resource: {res.title}</h1>
+            <p><b>User:</b> {res.user_id.username}</p>
+            <a href="{res.link}"><b>Link To The Video</b></a>
+            <p><b>Description:</b> {res.description}</p>
+            <p><b>Category:</b> {res.cat_id.cat}</p>
+            <p><b>Tags:</b> {tag_names}</p>
+        </html>
+    """
+    return HttpResponse(response)
 
 
 # class base view

@@ -4,3 +4,8 @@ def generate_cat_count_list(cat_cnts):
         result += f"<li>{cat_cnt['cat_id__cat']}: {cat_cnt['cnt']}</li>"
         
     return result
+
+# def generate_tag(tags):
+#     result = ""
+#     for tag in tags:
+#         result = 

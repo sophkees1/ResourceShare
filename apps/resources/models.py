@@ -43,10 +43,13 @@ class Resources(CreatedModifiedDatetimeBase):
     def __str__(self):
         return f"{self.user_id.username} - {self.title}"
     
-
-    
     def user_title(self):
         return self.user_id.title
+    
+    def all_tags(self):
+        return ", ".join([tag.name for tag in self.tags.all()])
+    
+    
     
 class ResourcesTag(CreatedModifiedDatetimeBase):
     modified_at = None
