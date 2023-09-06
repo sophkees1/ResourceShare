@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{res.title}}</title>
+    </head>
+    <body>
+        <h1 style="color: green">Resource: {{res.title}}</h1>
+
+        <p><b>User:</b> {{res.user_id.username}}</p>       
+
+        <p><b>Posted on:</b> {{res.created_at}}</p>
+
+        <p><b>Description:</b> {{res.description}}</p>
+
+        <p><b>Category:</b> {{res.cat_id.cat}}</p>
+
+        <p><b>Tags:</b> {{tag_names}}</p>
+
+        <p><b>Total Reviews:</b> {{reviews_cnt}}</p>
+
+        <p><b>Average Rating:</b>
+            {% if average_rating == 0 %}
+                None
+            {% else %}
+                {{average_rating}}
+            {% endif %}
+        </p>
+
+        <a href="{{res.link}}"><b>Click here to watch the video</b></a>
+    </body>
+</html>
