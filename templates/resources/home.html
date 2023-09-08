@@ -1,21 +1,23 @@
 <!DOCTYPE html>
+{% extends 'base.html' %}
+<!---->
+{% block title %} {{ block.super }} - Home {% endblock title %}
+<!---->
 
-<html>
-    <body>
-        <h1 style="color: blue">Welcome to ResourceShare!</h1>
-            
-        <h4>Total Resources:</h4>
-        <p>{{cnt}} and counting...</p>
-            
-        <h4>Total Active Users:</h4>
-        <p>{{users_cnt}} and counting...</p>
-        <br/>
-            
-        <h2 style="color: blue">Resources per Category:</h2>
-        <ol>
-            {% for res_cat in res_per_cat %}
-            <li>{{res_cat.cat_id__cat}}: {{res_cat.cnt}}</li>
-            {% endfor %}
-        </ol>
-    </body>
-</html>
+{% block content %}
+<!--<h1>Welcome to ResourceShare</h1>-->
+<h1 style="color: green">Welcome to ResourceShare</h1>
+{% comment %}
+<h3>All Users</h3>
+<p>{{user_cnt}} and counting!</p>
+{% endcomment %}
+<h3>All Resources</h3>
+<p>{{cnt}} resources and counting!</p>
+
+<h3>Resources per category</h3>
+<ol>
+    {% for res_cat in res_per_cat %}
+    <li>{{res_cat.cat_id__cat}}: {{res_cat.cnt}}</li>
+    {% endfor %}
+</ol>
+{% endblock content %}
