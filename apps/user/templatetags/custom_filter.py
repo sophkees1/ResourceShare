@@ -5,7 +5,7 @@ register = template.Library()
 
 @register.filter
 def cap_all_but_upper_first(value):
-    if value == "admin":
+    if value == "Admin":
         return value.upper()
     else:
         return value.capitalize()

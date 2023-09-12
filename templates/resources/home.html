@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 {% extends 'base.html' %}
 <!---->
 {% block title %} {{ block.super }} - Home {% endblock title %}
@@ -7,10 +6,10 @@
 {% block content %}
 <!--<h1>Welcome to ResourceShare</h1>-->
 <h1 style="color: green">Welcome to ResourceShare</h1>
-{% comment %}
+
 <h3>All Users</h3>
-<p>{{user_cnt}} and counting!</p>
-{% endcomment %}
+<p>{{users_cnt}} and counting!</p>
+
 <h3>All Resources</h3>
 <p>{{cnt}} resources and counting!</p>
 
@@ -20,4 +19,5 @@
     <li>{{res_cat.cat_id__cat}}: {{res_cat.cnt}}</li>
     {% endfor %}
 </ol>
+<a href="{% url 'resource-post' %}">Add a new resource</a>
 {% endblock content %}
