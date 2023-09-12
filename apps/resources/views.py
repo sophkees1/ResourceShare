@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.views.generic import TemplateView
 from django.db.models import Count, Avg
@@ -6,7 +6,7 @@ from django.db.models import Count, Avg
 from .models import Resources, Tag, Review, Rating
 from apps.user.models import User
 from .utils import generate_cat_count_list
-
+from .form import PostResourceForm
 
 
 def home_page(request):
@@ -51,8 +51,37 @@ def resource_detail(request, id):
     )
 
 
-
-
+def resource_post(request):
+    #Unbound- User made a GET request
+    if request.method == "GET":
+        form = PostResourceForm()  
+        return render(
+            request,
+            "resources/resource_post.html",
+            {"form": form}
+        )
+    else:
+        # Bound- User made a POST request
+        form = PostResourceForm(request.POST)
+        # validation
+        # .is_valid() method
+        # .cleaned_data attribute
+        if form.is_valid():
+            new_data = form.cleaned_data
+            new_data["user_id_id"] = 1
+            resource = Resources.objects.create(
+                user_id_id=new_data["user_id_id"],
+                cat_id_id=new_data["category"],  # Assuming category is a ForeignKey
+                title=new_data["title"],
+                description=new_data["description"],
+                link=new_data["link"],
+            )
+            # Create a list of selected tag IDs
+            tag_ids = new_data.get("tags", []) 
+            # Associate the selected tags with the resource
+            resource.tags.set(tag_ids)
+            return redirect(home_page)
+        
 
 
 
