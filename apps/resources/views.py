@@ -71,7 +71,7 @@ def resource_post(request):
             new_data["user_id_id"] = 1
             resource = Resources.objects.create(
                 user_id_id=new_data["user_id_id"],
-                cat_id_id=new_data["category"],  # Assuming category is a ForeignKey
+                cat_id_id=new_data["category"], 
                 title=new_data["title"],
                 description=new_data["description"],
                 link=new_data["link"],
@@ -80,12 +80,13 @@ def resource_post(request):
             tag_ids = new_data.get("tags", []) 
             # Associate the selected tags with the resource
             resource.tags.set(tag_ids)
+            
             return redirect(home_page)
         
 
 
 
-################################################################
+################################################################this is old and was for practice purposes
 
 # function base view
 def home_page_old(request):
