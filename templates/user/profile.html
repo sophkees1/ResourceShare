@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% load static %}
+<!---->
+<html>
+{% block title %} {{ block.super }} - Profile {% endblock title %}
+<!---->
+{% block stylesheet %}
+<link rel='stylesheet' type='text/css' href="{% static 'css/profile.css' %}"/>
+{% endblock stylesheet %}
+<!---->
+{% block content %}
+    <body>
+        <header>
+            <h1>Welcome to ResourceShare {{ request.user.username }}!</h1>
+            <nav>
+                <ul class="navul">
+                    <li class="lia">
+                        <a class="la" href="{% url 'home_page' %}">Home</a>
+                    </li>
+                    <li class="lia">
+                        <a class="la" href="{% url 'user-list' %}">See User List</a>
+                    </li>
+                    <li class="lia">
+                        <a class="la" href="{% url 'resource-post' %}">Add a new resource</a>
+                    </li>
+                    <li class="lia">
+                        <a class="la" href="{% url 'logout-view' %}">Logout</a>
+                    </li>
+                </ul>
+            </nav>
+            
+        </header>
+    
+        <div class="viewed">
+
+            <h4>Recently Viewed Resources:</h4>
+
+            <ul>
+            {% for resource_id, resource_title in request.session.viewed_resources %}
+                <li><a href={% url "resource-detail" id=resource_id %}>{{ resource_title }}</a></li>
+            {% empty %}
+                <p>No recently viewed resources</p>
+            {% endfor %}
+            </ul>
+        </div>
+
+        {% endblock content %}
+    </body>
+</html>

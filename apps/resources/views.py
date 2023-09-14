@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.views.generic import TemplateView
 from django.db.models import Count, Avg
+from django.contrib.auth.decorators import login_required
 
 from .models import Resources, Tag, Review, Rating
 from apps.user.models import User
@@ -28,13 +29,33 @@ def home_page(request):
 
 
 
-
+@login_required
 def resource_detail(request, id):
+    max_viewed_resources = 5
+    
+    viewed_resources = request.session.get("viewed_resources", [])
+    
     res = Resources.objects.select_related("user_id", "cat_id").get(pk=id)
     tags = Tag.objects.filter(resources=res)
     tag_names = ", ".join([tag.name for tag in tags])
     reviews_cnt = Review.objects.filter(resources_id=res).count()
     average_rating = Rating.objects.filter(resources_id=res).aggregate(avg_rating=Avg("rate"))["avg_rating"]
+    
+    # prepare our data
+    viewed_resource = [id, res.title]
+    
+    # check if that data exists already and remove it
+    if viewed_resource in viewed_resources:
+        viewed_resources.remove(viewed_resource)
+    
+    # add it as first item
+    viewed_resources.insert(0, viewed_resource)
+    
+    # Get limit
+    viewed_resources = viewed_resources[:max_viewed_resources]
+    
+    # add it back in the session
+    request.session["viewed_resources"] = viewed_resources
     
     context = {
         "res": res,
@@ -50,7 +71,7 @@ def resource_detail(request, id):
         context=context
     )
 
-
+@login_required
 def resource_post(request):
     #Unbound- User made a GET request
     if request.method == "GET":
