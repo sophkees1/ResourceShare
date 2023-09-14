@@ -1,23 +1,48 @@
 {% extends 'base.html' %}
+{% load static %}
 <!---->
+<html>
 {% block title %} {{ block.super }} - Home {% endblock title %}
 <!---->
-
+{% block stylesheet %}
+{{ block.super }}
+<link rel='stylesheet' type='text/css' href="{% static 'css/home.css' %}"/>
+{% endblock stylesheet %}
 {% block content %}
-<!--<h1>Welcome to ResourceShare</h1>-->
-<h1 style="color: green">Welcome to ResourceShare</h1>
 
-<h3>All Users</h3>
-<p>{{users_cnt}} and counting!</p>
+    <body>
+        <header>
+            <h1>ResourceShare</h1>
+            <nav>
+                <ul class="navul">
+                    <li class="lia">
+                        <a class="la" href="{% url 'profile' %}">View Profile</a>
+                    </li>
+                    <li class="lia">
+                        <a class="la" href="{% url 'resource-post' %}">Add a new resource</a>
+                    </li>
+                    <li class="lia">
+                        <a class="la" href="{% url 'login-view' %}">Login</a>
+                    </li>
+                </ul>
+            </nav>       
+        </header>
+        <div class="info">
+            <h3>All Users</h3>
+            <p>{{users_cnt}} and counting!</p>
 
-<h3>All Resources</h3>
-<p>{{cnt}} resources and counting!</p>
+            <h3>All Resources</h3>
+            <p>{{cnt}} resources and counting!</p>
 
-<h3>Resources per category</h3>
-<ol>
-    {% for res_cat in res_per_cat %}
-    <li>{{res_cat.cat_id__cat}}: {{res_cat.cnt}}</li>
-    {% endfor %}
-</ol>
-<a href="{% url 'resource-post' %}">Add a new resource</a>
-{% endblock content %}
+            <h3>Resources per category</h3>
+            <ol>
+                {% for res_cat in res_per_cat %}
+                <li>{{res_cat.cat_id__cat}}: {{res_cat.cnt}}</li>
+                {% endfor %}
+            </ol>
+        </div>
+        
+        {% endblock content %}
+    </body>
+    </footer></footer>
+</html>

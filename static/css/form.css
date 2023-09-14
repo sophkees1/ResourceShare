@@ -1,12 +1,53 @@
+header {
+    background-color: #8f8ff3;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    outline: 1px solid black;
+    height: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navul {
+    display: flex;
+}
+
+.lia {
+    text-decoration: none;
+    color: black;
+    border: 2px groove black;
+    border-radius: 5px;
+    padding: 4px;
+    background-color: lavenderblush;
+    margin: 30px;
+    list-style: none;
+}
+
+.lia:hover {
+    background-color: lightgray;
+}
+
+.la {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #8f8ff3;
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+    margin: 85px;
+}
 .resource-form {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-    max-width: 50%;
+    width: 25%;
     margin: auto;
 }
 
-.resource-form input[type="text"], input[type="url"] {
+.resource-form input[type="text"], input[type="url"], input[type="password"] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -26,7 +67,7 @@
 
 .resource-form input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: gray;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -36,7 +77,7 @@
 }
 
 .resource-form input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #8f8ff3;
 }
 
 .form-cat {
@@ -46,3 +87,4 @@
 .form-tag {
     margin-top: 10px;
 }
+
