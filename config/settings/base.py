@@ -31,6 +31,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "apps.core.middleware.log.simple_logging_middleware",
 ]
 
 ROOT_URLCONF = "config.urls"
@@ -97,3 +98,42 @@ AUTH_USER_MODEL = "user.User"
 
 
 LOGIN_URL = "login-view"
+
+# Logger configuration
+LOGGING = {
+    "version": 1, #dictConfig format version
+    "loggers": { # receiver or entry point to the logging system
+        "logging_mw": { # specify the logger instance
+            # decide which handler to handle it
+            "handlers": ["file", "console"], #the "file" handler will handle
+            "level": "DEBUG"
+        }    
+    },
+    "handlers": {
+        "console": { # the name of the handler
+            "level": "DEBUG", # handle this logging level and any other above it
+            "class": "logging.StreamHandler", # this defines the medium to send the log message
+            "filters": ["only_if_debug_true"], # handle only if DEBUG = True
+        },
+        "file": { # the name of the handler
+            "level": "INFO", # handle this logging level and any other above it
+            # TODO: look for more class options
+            "class": "logging.FileHandler", # this defines the medium to send the log message
+            "filename": str(BASE_DIR / "logs" / "req_res_logs.txt"),
+            "formatter": "verbose",
+        },        
+    },
+    "formatters": {
+        "verbose": {
+            # TODO: search for more format log variables from the official doc
+            "format": "{levelname} {asctime} {module} :: {message}",
+            "style": "{", # i want to use curly braces to access attributes
+        },        
+    },
+    "filters": {
+        "only_if_debug_true": {
+            "()": "django.utils.log.RequireDebugTrue",
+        }    
+    # TODO: call your own custom function to handle filtering
+    },
+}
