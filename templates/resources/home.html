@@ -9,20 +9,22 @@
 <link rel='stylesheet' type='text/css' href="{% static 'css/home.css' %}"/>
 {% endblock stylesheet %}
 {% block content %}
-
     <body>
         <header>
-            <h1>ResourceShare</h1>
+            <h1>ResourceShare Homepage</h1>
             <nav>
                 <ul class="navul">
                     <li class="lia">
-                        <a class="la" href="{% url 'profile' %}">View Profile</a>
+                        <a class="la" href="{% url 'profile' %}">My Profile</a>
                     </li>
                     <li class="lia">
                         <a class="la" href="{% url 'resource-post' %}">Add a new resource</a>
                     </li>
                     <li class="lia">
                         <a class="la" href="{% url 'login-view' %}">Login</a>
+                    </li>
+                    <li class="lia">
+                        <a class="la" href="{% url 'logout-view' %}">Logout</a>
                     </li>
                 </ul>
             </nav>       

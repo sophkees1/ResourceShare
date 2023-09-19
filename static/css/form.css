@@ -8,8 +8,17 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: x-large;
+    font-weight: 600;
+    width: 100%;
+}
+
 .navul {
     display: flex;
+    list-style: none;
 }
 
 .lia {
@@ -31,20 +40,15 @@ header {
     text-decoration: none;
 }
 
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #8f8ff3;
-    font-size: x-large;
-    font-weight: 600;
-    text-align: center;
-    margin: 85px;
-}
+
 .resource-form {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 20px;
-    width: 25%;
+    padding: 35px;
+    width: 30%;
     margin: auto;
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .resource-form input[type="text"], input[type="url"], input[type="password"] {
