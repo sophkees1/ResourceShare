@@ -269,3 +269,14 @@ INFO 2023-09-15 11:44:39,158 log :: GET | 127.0.0.1:8000/profile/ | text/plain |
 INFO 2023-09-15 11:44:41,381 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
 INFO 2023-09-15 11:44:48,782 log :: GET | 127.0.0.1:8000/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
 INFO 2023-09-15 11:44:56,039 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-09-21 08:00:25,016 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-09-21 08:00:25,135 log :: GET | 127.0.0.1:8000/favicon.ico | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-09-21 08:00:27,395 log :: GET | 127.0.0.1:8000/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-09-21 08:00:29,785 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-09-21 08:00:32,743 log :: GET | 127.0.0.1:8000/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-09-21 08:00:33,810 log :: GET | 127.0.0.1:8000/resources/post/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-09-21 08:00:41,064 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-09-26 07:05:07,561 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-09-26 07:05:07,682 log :: GET | 127.0.0.1:8000/favicon.ico | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-09-26 07:05:08,355 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-09-26 07:05:11,507 log :: GET | 127.0.0.1:8000/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
