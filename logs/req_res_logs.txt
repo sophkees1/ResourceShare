@@ -280,3 +280,278 @@ INFO 2023-09-26 07:05:07,561 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla
 INFO 2023-09-26 07:05:07,682 log :: GET | 127.0.0.1:8000/favicon.ico | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
 INFO 2023-09-26 07:05:08,355 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
 INFO 2023-09-26 07:05:11,507 log :: GET | 127.0.0.1:8000/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 08:00:22,768 log :: GET | 127.0.0.1:8000/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 08:00:22,781 log :: GET | 127.0.0.1:8000/login/?next=/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 08:00:22,926 log :: GET | 127.0.0.1:8000/favicon.ico | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 08:00:24,340 log :: GET | 127.0.0.1:8000/login/?next=/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 08:00:27,132 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 08:00:35,923 log :: GET | 127.0.0.1:8000/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 08:00:35,939 log :: GET | 127.0.0.1:8000/login/?next=/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 08:00:40,451 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 08:00:41,781 log :: GET | 127.0.0.1:8000/resources/post/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 08:00:41,794 log :: GET | 127.0.0.1:8000/login/?next=/resources/post/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 08:00:50,669 log :: POST | 127.0.0.1:8000/login/?next=/resources/post/ | application/x-www-form-urlencoded | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 08:00:57,364 log :: POST | 127.0.0.1:8000/login/?next=/resources/post/ | application/x-www-form-urlencoded | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 08:00:58,024 log :: GET | 127.0.0.1:8000/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 08:01:14,742 log :: GET | 127.0.0.1:8000/api/v1/resource | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 08:01:14,760 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 08:12:44,645 log :: GET | 127.0.0.1:8000/api/v1/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 08:13:03,707 log :: GET | 127.0.0.1:8000/api/v1/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 08:20:04,239 log :: GET | 127.0.0.1:8000/api/v1/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 08:20:15,419 log :: GET | 127.0.0.1:8000/api/v1/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 08:20:24,479 log :: GET | 127.0.0.1:8000/api/v1/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 08:23:40,727 log :: GET | 127.0.0.1:8000/api/v1/categories/ | text/plain | curl/7.68.0
+INFO 2023-10-04 08:58:37,629 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:03:50,647 log :: GET | 127.0.0.1:8000/api/v1/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:04:27,033 log :: GET | 127.0.0.1:8000/api/v1/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:05:44,084 log :: GET | 127.0.0.1:8000/api/v1/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:06:18,337 log :: GET | 127.0.0.1:8000/api/v1/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:06:47,437 log :: GET | 127.0.0.1:8000/api/v1/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:07:03,078 log :: GET | 127.0.0.1:8000/api/v1/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:07:08,674 log :: GET | 127.0.0.1:8000/api/v1/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:07:09,602 log :: GET | 127.0.0.1:8000/api/v1/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:07:17,605 log :: GET | 127.0.0.1:8000/api/v1/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:07:23,668 log :: GET | 127.0.0.1:8000/api/v1/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:07:42,800 log :: GET | 127.0.0.1:8000/api/v1/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:07:43,474 log :: GET | 127.0.0.1:8000/api/v1/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:07:52,173 log :: GET | 127.0.0.1:8000/api/v1/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:09:55,702 log :: GET | 127.0.0.1:8000/api/v1/list-tags/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:10:08,302 log :: GET | 127.0.0.1:8000/api/v1/tags/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:10:27,645 log :: GET | 127.0.0.1:8000/api/v1/tags/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:11:16,448 log :: GET | 127.0.0.1:8000/api/v1/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:13:03,265 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:13:17,316 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:13:36,806 log :: GET | 127.0.0.1:8000/admin/resources/resources/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:13:36,957 log :: GET | 127.0.0.1:8000/admin/jsi18n/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:17:09,265 log :: GET | 127.0.0.1:8000/api/v1/resources/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:17:14,988 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:17:26,864 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:30:20,044 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:36:17,880 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:38:45,566 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:39:15,736 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:42:55,130 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:43:09,180 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:43:10,493 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:43:43,266 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:46:09,397 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:46:10,704 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:46:14,302 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:46:41,996 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:50:16,107 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:50:17,217 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:50:25,198 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:50:26,088 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:50:26,777 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:50:27,376 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 09:50:34,741 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 10:09:50,826 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 10:09:58,054 log :: GET | 127.0.0.1:8000/api/v2/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 10:10:03,717 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 10:10:09,053 log :: GET | 127.0.0.1:8000/api/v1/tags/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 10:10:13,966 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 10:10:18,450 log :: GET | 127.0.0.1:8000/api/v2/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 10:11:10,833 log :: GET | 127.0.0.1:8000/api/v2/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 10:11:25,601 log :: GET | 127.0.0.1:8000/api/v2/resource/ | text/plain | curl/7.68.0
+INFO 2023-10-04 10:14:40,229 log :: GET | 127.0.0.1:8000/api/v2/categories | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 10:14:40,264 log :: GET | 127.0.0.1:8000/api/v2/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 11:26:48,756 log :: PATCH | 127.0.0.1:8000/user/update/1 | application/json | curl/7.68.0
+INFO 2023-10-04 11:27:19,668 log :: PATCH | 127.0.0.1:8000/user/update/1 | application/json | curl/7.68.0
+INFO 2023-10-04 11:28:03,728 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 11:28:05,956 log :: GET | 127.0.0.1:8000/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 11:28:22,417 log :: PATCH | 127.0.0.1:8000/update/1 | application/json | curl/7.68.0
+INFO 2023-10-04 11:29:09,636 log :: GET | 127.0.0.1:8000/user/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 11:29:12,561 log :: GET | 127.0.0.1:8000/user | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 11:29:30,868 log :: PATCH | 127.0.0.1:8000/user/update/1 | application/json | curl/7.68.0
+INFO 2023-10-04 11:29:38,622 log :: GET | 127.0.0.1:8000/admin/user/user/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 11:29:38,717 log :: GET | 127.0.0.1:8000/admin/jsi18n/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 11:30:02,877 log :: PATCH | 127.0.0.1:8000/user/update/1 | application/json | curl/7.68.0
+INFO 2023-10-04 11:30:54,968 log :: GET | 127.0.0.1:8000/list/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 11:31:01,452 log :: GET | 127.0.0.1:8000/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 11:31:08,595 log :: PATCH | 127.0.0.1:8000/update/1 | application/json | curl/7.68.0
+INFO 2023-10-04 11:31:13,709 log :: PATCH | 127.0.0.1:8000/update/1 | application/json | curl/7.68.0
+INFO 2023-10-04 11:31:35,177 log :: PATCH | 127.0.0.1:8000/user/update/1 | application/json | curl/7.68.0
+INFO 2023-10-04 11:35:20,760 log :: PATCH | 127.0.0.1:8000/user/update/1 | application/json | curl/7.68.0
+INFO 2023-10-04 11:36:02,441 log :: PATCH | 127.0.0.1:8000/user/update/1 | application/json | curl/7.68.0
+INFO 2023-10-04 11:39:09,407 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 11:39:11,076 log :: GET | 127.0.0.1:8000/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 11:39:12,642 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 11:42:01,054 log :: GET | 127.0.0.1:8000/api/v2/resource/1 | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 11:42:01,067 log :: GET | 127.0.0.1:8000/api/v2/resource/1/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 11:43:41,914 log :: PATCH | 127.0.0.1:8000/user/update/1 | application/json | curl/7.68.0
+INFO 2023-10-04 11:44:17,582 log :: GET | 127.0.0.1:8000/api/v2/resource/1/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 11:44:18,704 log :: GET | 127.0.0.1:8000/api/v2/resource/1/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 11:45:00,733 log :: GET | 127.0.0.1:8000/api/v2/resource/1/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 11:45:35,083 log :: GET | 127.0.0.1:8000/api/v2/resource/53/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 11:45:44,740 log :: GET | 127.0.0.1:8000/api/v2/resource/3/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 11:46:38,251 log :: PATCH | 127.0.0.1:8000/user/update/1 | application/json | curl/7.68.0
+INFO 2023-10-04 12:04:38,844 log :: GET | 127.0.0.1:8000/ai/v3/resource/1 | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 12:04:45,558 log :: GET | 127.0.0.1:8000/ai/v3/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 12:04:48,147 log :: GET | 127.0.0.1:8000/ai/v3/resource | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 12:05:04,728 log :: GET | 127.0.0.1:8000/api/v3/resource | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 12:05:04,738 log :: GET | 127.0.0.1:8000/api/v3/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 12:05:47,554 log :: GET | 127.0.0.1:8000/api/v3/resource/1 | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 12:05:47,587 log :: GET | 127.0.0.1:8000/api/v3/resource/1/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 12:11:00,414 log :: GET | 127.0.0.1:8000/api/v3/categories | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 12:11:00,432 log :: GET | 127.0.0.1:8000/api/v3/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 12:12:54,875 log :: POST | 127.0.0.1:8000/api/v3/categories/ | application/json | curl/7.68.0
+INFO 2023-10-04 12:13:41,577 log :: GET | 127.0.0.1:8000/api/v3/categories/6 | application/json | curl/7.68.0
+INFO 2023-10-04 12:13:49,745 log :: GET | 127.0.0.1:8000/api/v3/categories/6 | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 12:13:49,756 log :: GET | 127.0.0.1:8000/api/v3/categories/6/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 12:13:58,017 log :: GET | 127.0.0.1:8000/api/v3/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 12:14:08,997 log :: GET | 127.0.0.1:8000/api/v3/categories/6 | text/plain | curl/7.68.0
+INFO 2023-10-04 12:14:23,519 log :: GET | 127.0.0.1:8000/api/v3/categories/6/ | text/plain | curl/7.68.0
+INFO 2023-10-04 12:16:51,987 log :: PATCH | 127.0.0.1:8000/api/v3/categories/6/ | application/json | curl/7.68.0
+INFO 2023-10-04 12:17:12,565 log :: DELETE | 127.0.0.1:8000/api/v3/categories/6/ | text/plain | curl/7.68.0
+INFO 2023-10-04 12:17:23,639 log :: GET | 127.0.0.1:8000/api/v3/categories/6/ | text/plain | curl/7.68.0
+INFO 2023-10-04 12:17:58,576 log :: GET | 127.0.0.1:8000/api/v3/categories/ | text/plain | curl/7.68.0
+INFO 2023-10-04 12:22:29,737 log :: OPTIONS | 127.0.0.1:8000/api/v3/categories/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 12:22:32,907 log :: OPTIONS | 127.0.0.1:8000/api/v3/categories/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 12:22:40,712 log :: GET | 127.0.0.1:8000/api/v3/categories/6/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 12:22:46,158 log :: GET | 127.0.0.1:8000/api/v3/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 12:23:05,541 log :: GET | 127.0.0.1:8000/api/v3/categories/6/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 12:49:04,868 log :: GET | 127.0.0.1:8000/api/v3/categories/6/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 12:54:46,362 log :: GET | 127.0.0.1:8000/api/v3/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 12:54:55,599 log :: GET | 127.0.0.1:8000/api/v3/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:08:53,827 log :: GET | 127.0.0.1:8000/api/v3/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:09:35,171 log :: GET | 127.0.0.1:8000/api/v3/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:09:53,072 log :: GET | 127.0.0.1:8000/api/v3/categories/2 | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:09:53,083 log :: GET | 127.0.0.1:8000/api/v3/categories/2/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:09:59,348 log :: DELETE | 127.0.0.1:8000/api/v3/categories/2/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:18:55,469 log :: GET | 127.0.0.1:8000/api/v3/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:19:07,169 log :: POST | 127.0.0.1:8000/api/v3/categories/ | multipart/form-data; boundary=----WebKitFormBoundarye5pMGjRcp2mvVU8e | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:19:14,138 log :: GET | 127.0.0.1:8000/api/v3/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:19:27,689 log :: POST | 127.0.0.1:8000/api/v3/categories/ | multipart/form-data; boundary=----WebKitFormBoundaryQWekLXJDOAqzuRAW | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:20:02,703 log :: POST | 127.0.0.1:8000/api/v3/categories/ | multipart/form-data; boundary=----WebKitFormBoundaryQWekLXJDOAqzuRAW | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:20:05,120 log :: GET | 127.0.0.1:8000/api/v3/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:20:24,112 log :: GET | 127.0.0.1:8000/api/v2/categories/8 | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:20:24,125 log :: GET | 127.0.0.1:8000/api/v2/categories/8/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:20:27,423 log :: DELETE | 127.0.0.1:8000/api/v2/categories/8/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:20:34,043 log :: GET | 127.0.0.1:8000/api/v2/categories/8/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:20:37,989 log :: GET | 127.0.0.1:8000/api/v2/categories/9 | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:20:38,008 log :: GET | 127.0.0.1:8000/api/v2/categories/9/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:20:40,770 log :: DELETE | 127.0.0.1:8000/api/v2/categories/9/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:20:44,381 log :: GET | 127.0.0.1:8000/api/v2/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:20:49,267 log :: GET | 127.0.0.1:8000/api/v3/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:29:02,694 log :: GET | 127.0.0.1:8000/api/v3/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:29:12,342 log :: GET | 127.0.0.1:8000/api/v3/categories/2/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:29:14,645 log :: DELETE | 127.0.0.1:8000/api/v3/categories/2/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:29:16,070 log :: DELETE | 127.0.0.1:8000/api/v3/categories/2/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:29:18,332 log :: DELETE | 127.0.0.1:8000/api/v3/categories/2/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:29:22,118 log :: DELETE | 127.0.0.1:8000/api/v3/categories/2/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:29:22,950 log :: DELETE | 127.0.0.1:8000/api/v3/categories/2/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:29:29,830 log :: DELETE | 127.0.0.1:8000/api/v3/categories/2/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:29:45,196 log :: GET | 127.0.0.1:8000/api/v3/categories/2/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:29:50,206 log :: GET | 127.0.0.1:8000/api/v3/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:30:55,163 log :: GET | 127.0.0.1:8000/api/v3/categories/2/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:30:57,485 log :: DELETE | 127.0.0.1:8000/api/v3/categories/2/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:30:58,414 log :: DELETE | 127.0.0.1:8000/api/v3/categories/2/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:31:13,218 log :: DELETE | 127.0.0.1:8000/api/v3/categories/2/ | text/plain | curl/7.68.0
+INFO 2023-10-04 13:32:26,583 log :: GET | 127.0.0.1:8000/api/v3/categories/2/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:32:29,136 log :: DELETE | 127.0.0.1:8000/api/v3/categories/2/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:32:29,878 log :: DELETE | 127.0.0.1:8000/api/v3/categories/2/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:32:30,262 log :: DELETE | 127.0.0.1:8000/api/v3/categories/2/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:32:30,432 log :: DELETE | 127.0.0.1:8000/api/v3/categories/2/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:32:30,599 log :: DELETE | 127.0.0.1:8000/api/v3/categories/2/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:32:30,740 log :: DELETE | 127.0.0.1:8000/api/v3/categories/2/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:33:21,476 log :: GET | 127.0.0.1:8000/api/v2/categories/2 | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:33:21,496 log :: GET | 127.0.0.1:8000/api/v2/categories/2/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:33:59,466 log :: DELETE | 127.0.0.1:8000/api/v2/categories/2/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:34:00,505 log :: DELETE | 127.0.0.1:8000/api/v2/categories/2/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:35:07,271 log :: GET | 127.0.0.1:8000/api/v2/categories/2/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:35:10,794 log :: DELETE | 127.0.0.1:8000/api/v2/categories/2/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:35:24,422 log :: GET | 127.0.0.1:8000/api/v3/categories/2/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:35:28,226 log :: GET | 127.0.0.1:8000/api/v3/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:35:39,641 log :: DELETE | 127.0.0.1:8000/api/v3/categories/2/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:35:46,411 log :: GET | 127.0.0.1:8000/api/v2/categories/2/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:35:51,515 log :: OPTIONS | 127.0.0.1:8000/api/v2/categories/2/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:35:59,581 log :: OPTIONS | 127.0.0.1:8000/api/v2/categories/2/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:36:01,213 log :: DELETE | 127.0.0.1:8000/api/v2/categories/2/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:37:33,498 log :: GET | 127.0.0.1:8000/api/v2/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:37:40,539 log :: GET | 127.0.0.1:8000/api/v2/categories/2/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:45:52,992 log :: GET | 127.0.0.1:8000/api/v2/categories/2/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:45:56,215 log :: GET | 127.0.0.1:8000/api/v2/categories/2/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:45:58,982 log :: DELETE | 127.0.0.1:8000/api/v2/categories/2/ | application/x-www-form-urlencoded; charset=UTF-8 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:47:27,715 log :: GET | 127.0.0.1:8000/api/v2/categories/2/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:53:18,249 log :: GET | 127.0.0.1:8000/api/v3/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:53:59,140 log :: GET | 127.0.0.1:8000/api/v3/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 13:55:45,611 log :: GET | 127.0.0.1:8000/api/v3/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 14:01:18,923 log :: GET | 127.0.0.1:8000/api/v3/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 14:02:54,126 log :: GET | 127.0.0.1:8000/api/v3/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 14:02:55,033 log :: GET | 127.0.0.1:8000/api/v3/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 14:02:55,382 log :: GET | 127.0.0.1:8000/api/v3/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 14:03:08,995 log :: GET | 127.0.0.1:8000/api/v3/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 14:03:13,499 log :: GET | 127.0.0.1:8000/api/v3/resources/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 14:03:16,977 log :: GET | 127.0.0.1:8000/api/v3/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 14:04:07,628 log :: GET | 127.0.0.1:8000/api/v3/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 14:04:14,109 log :: GET | 127.0.0.1:8000/api/v3/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 14:04:14,734 log :: GET | 127.0.0.1:8000/api/v3/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 14:04:14,919 log :: GET | 127.0.0.1:8000/api/v3/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 14:04:15,064 log :: GET | 127.0.0.1:8000/api/v3/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 14:04:18,262 log :: GET | 127.0.0.1:8000/api/v3/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 14:04:30,522 log :: GET | 127.0.0.1:8000/api/v3/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 14:08:54,897 log :: GET | 127.0.0.1:8000/api/v3/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 14:09:23,422 log :: GET | 127.0.0.1:8000/api/v2/categories/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 14:09:34,142 log :: GET | 127.0.0.1:8000/api/v2/categories/2/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 14:09:51,499 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 14:09:53,301 log :: GET | 127.0.0.1:8000/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-04 14:09:54,736 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 07:27:39,178 log :: GET | 127.0.0.1:8000/api/v2/resource/ | text/plain | curl/7.68.0
+INFO 2023-10-05 07:27:46,823 log :: GET | 127.0.0.1:8000/api/v2/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 07:28:03,867 log :: GET | 127.0.0.1:8000/api/v2/resource/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 07:28:43,822 log :: GET | 127.0.0.1:8000/api/v2/resource/ | text/plain | curl/7.68.0
+INFO 2023-10-05 07:29:34,295 log :: GET | 127.0.0.1:8000/api/v2/resource/ | text/plain | curl/7.68.0
+INFO 2023-10-05 08:02:54,137 log :: GET | 127.0.0.1:8000/api/v1/login | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 08:02:54,155 log :: GET | 127.0.0.1:8000/api/v1/login/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 08:04:03,924 log :: POST | 127.0.0.1:8000/api/v1/login/ | application/json | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 08:17:44,958 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | curl/7.68.0
+INFO 2023-10-05 08:18:58,080 log :: POST | 127.0.0.1:8000/api/v1/login/ | application/x-www-form-urlencoded | curl/7.68.0
+INFO 2023-10-05 08:19:22,191 log :: POST | 127.0.0.1:8000/api/v1/login/ | application/json | curl/7.68.0
+INFO 2023-10-05 08:20:17,912 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | curl/7.68.0
+INFO 2023-10-05 08:29:49,776 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | curl/7.68.0
+INFO 2023-10-05 08:29:51,637 log :: GET | 127.0.0.1:8000/api/v1/resource/ | text/plain | curl/7.68.0
+INFO 2023-10-05 08:57:32,326 log :: GET | 127.0.0.1:8000/api/v1/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 08:57:34,882 log :: GET | 127.0.0.1:8000/api/v1/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 08:57:36,681 log :: GET | 127.0.0.1:8000/api/v1/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 08:57:37,216 log :: GET | 127.0.0.1:8000/api/v1/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 08:57:37,376 log :: GET | 127.0.0.1:8000/api/v1/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 08:57:37,513 log :: GET | 127.0.0.1:8000/api/v1/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 08:57:37,684 log :: GET | 127.0.0.1:8000/api/v1/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 08:57:43,045 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 08:57:48,935 log :: GET | 127.0.0.1:8000/api/v1/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 08:57:51,295 log :: GET | 127.0.0.1:8000/api/v1/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 08:58:29,360 log :: GET | 127.0.0.1:8000/api/v1/profile/ | text/plain | curl/7.68.0
+INFO 2023-10-05 08:58:37,495 log :: GET | 127.0.0.1:8000/api/v1/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 08:58:41,013 log :: GET | 127.0.0.1:8000/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 08:58:44,171 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 08:58:45,243 log :: GET | 127.0.0.1:8000/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 08:58:47,699 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 08:58:51,286 log :: GET | 127.0.0.1:8000/logout/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 08:58:51,334 log :: GET | 127.0.0.1:8000/login/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 08:58:53,191 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 09:04:56,005 log :: GET | 127.0.0.1:8000/api/v1/profile/ | text/plain | curl/7.68.0
+INFO 2023-10-05 09:05:51,388 log :: GET | 127.0.0.1:8000/login/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 09:05:57,512 log :: POST | 127.0.0.1:8000/login/ | application/x-www-form-urlencoded | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 09:05:58,152 log :: GET | 127.0.0.1:8000/profile/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-05 09:06:55,822 log :: GET | 127.0.0.1:8000/api/v1/profile/ | text/plain | curl/7.68.0
+INFO 2023-10-05 09:38:17,110 log :: GET | 127.0.0.1:8000/api/v1/profile/ | text/plain | curl/7.68.0
+INFO 2023-10-06 07:25:24,810 log :: GET | 127.0.0.1:8000/api/v1/categories/ | text/plain | python-requests/2.30.0
+INFO 2023-10-06 07:33:24,601 log :: GET | 127.0.0.1:8000/api/v1/categories/ | text/plain | python-requests/2.30.0
+INFO 2023-10-06 07:37:03,164 log :: GET | 127.0.0.1:8000/api/v1/categories/ | text/plain | python-requests/2.30.0
+INFO 2023-10-06 07:45:51,612 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-06 07:46:01,430 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-06 07:46:01,526 log :: GET | 127.0.0.1:8000/favicon.ico | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-06 07:46:11,363 log :: GET | 127.0.0.1:8000/resources/post/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-06 07:47:12,340 log :: POST | 127.0.0.1:8000/resources/post/ | application/x-www-form-urlencoded | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-06 07:47:12,425 log :: GET | 127.0.0.1:8000/ | text/plain | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+INFO 2023-10-06 07:53:20,934 log :: GET | 127.0.0.1:8000/api/v2/resource/ | text/plain | python-requests/2.30.0
+INFO 2023-10-06 07:53:23,638 log :: GET | 127.0.0.1:8000/api/v2/resource/ | text/plain | python-requests/2.30.0
+INFO 2023-10-06 07:57:56,405 log :: GET | 127.0.0.1:8000/api/v2/resource/?cat=Frameworks | text/plain | python-requests/2.30.0
+INFO 2023-10-06 07:58:02,943 log :: GET | 127.0.0.1:8000/api/v2/resource/?cat=Frameworks | text/plain | python-requests/2.30.0
+INFO 2023-10-06 07:58:25,521 log :: GET | 127.0.0.1:8000/api/v2/resource/?cat=Frameworks | text/plain | python-requests/2.30.0
+INFO 2023-10-06 08:03:02,922 log :: GET | 127.0.0.1:8000/api/v2/resource/?cat=Frameworks | text/plain | python-requests/2.30.0
+INFO 2023-10-06 08:03:59,088 log :: GET | 127.0.0.1:8000/api/v2/resource/?cat=Frameworks | text/plain | python-requests/2.30.0
+INFO 2023-10-06 08:10:51,538 log :: GET | 127.0.0.1:8000/api/v2/resource/?cat=Frameworks | text/plain | python-requests/2.30.0
+INFO 2023-10-06 08:18:56,304 log :: POST | 127.0.0.1:8000/api/v1/login/ | application/json | python-requests/2.30.0
+INFO 2023-10-06 08:51:52,912 log :: GET | 127.0.0.1:8000/api/v1/profile/ | text/plain | python-requests/2.30.0
+INFO 2023-10-06 08:56:44,153 log :: GET | 127.0.0.1:8000/api/v1/profile/ | text/plain | python-requests/2.30.0
