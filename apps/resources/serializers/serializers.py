@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from apps.user.serializers import UserModelSerializer
-from . import models
+from apps.resources import models
 
 
 # naming convention: <model>Serializer

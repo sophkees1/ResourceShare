@@ -6,6 +6,8 @@ from . import api_views
 # TODO: check difference between simplerouter and defaultrouter
 router = (routers.SimpleRouter())
 router.register("api/v3/resource", api_views.ResourceViewSets) # base url
+router.register("api/v3/categories", api_views.CategoryViewSets) 
+
 
 api_urlpatterns = [
     path("api/v1/resource/", api_views.list_resources, name="list-resources"),
@@ -14,6 +16,7 @@ api_urlpatterns = [
     path("api/v2/resource/", api_views.ListResource.as_view(), name="list-resources-class"),
     path("api/v2/categories/", api_views.ListCategory.as_view(), name="list-category-class"),
     path("api/v2/resource/<int:id>/", api_views.DetailResource.as_view(), name="detail-resource-class"),
+    path("api/v2/categories/<int:pk>/", api_views.DeleteCategory.as_view(), name="delete-category-class")
 ]
 
 urlpatterns = [
